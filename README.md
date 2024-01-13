@@ -1,8 +1,8 @@
 # Hi! Coming here.❄️
 > ⚡Empowering Minds, Advancing AI, Transforming the Future, One Byte at a Time.
 
-<a><img height=200 align="center" src="https://github-readme-stats-two-flame-79.vercel.app/api?username=wellcoming&show_icons=true&custom_title=🥺&theme=transparent" /></a>
-<a><img height=200 align="center" src="https://github-readme-stats-two-flame-79.vercel.app/api/top-langs?username=wellcoming&layout=compact&exclude_repo=github-readme-stats&theme=transparent" /></a>
+<a><img height=150 align="center" src="https://github-readme-stats-two-flame-79.vercel.app/api?username=wellcoming&show_icons=true&custom_title=🥺&theme=transparent" /></a>
+<a><img height=150 align="center" src="https://github-readme-stats-two-flame-79.vercel.app/api/top-langs?username=wellcoming&layout=compact&exclude_repo=github-readme-stats&theme=transparent" /></a>
 
 - 💻 OIer, actively preparing for Provincial Selection Contest.
 - 📖 17-year-old high school girl.
