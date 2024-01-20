@@ -2,7 +2,7 @@ name: 🎉 Auto Update Age
 
 on:
   schedule:
-    - cron: '0 0 16 28 12'  # utc+8 12-29-00:00
+    - cron: '0 16 28 12 *'  # utc+8 12-29-00:00
   workflow_dispatch: {}
 
 jobs:
