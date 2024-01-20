@@ -1,0 +1,21 @@
+name: 🎉 Auto Update Age
+
+on:
+  schedule:
+    - cron: '0 0 16 28 12'  # utc+8 12-29-00:00
+  workflow_dispatch: {}
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Update README
+      run: |
+        AGE=$(($(date +%Y) - 2006))
+        sed -i "s/{age}/$AGE/g" README_TEMPLATE.md > README.md
+        git add README.md
+        git commit -m ":repeat: Update README for birthday"
+        git push
