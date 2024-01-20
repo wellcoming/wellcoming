@@ -12,10 +12,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Update README
+    - name: Update README.md
       run: |
         AGE=$(($(date +%Y) - 2006))
         sed -i "s/{age}/$AGE/g" README_TEMPLATE.md > README.md
-        git add README.md
-        git commit -m ":repeat: Update README for birthday"
-        git push
+#        git add README.md
+#        git commit -m ":repeat: Update README for birthday"
+
+    - uses: mikeal/publish-to-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
