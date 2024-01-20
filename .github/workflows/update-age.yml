@@ -18,7 +18,7 @@ jobs:
     - name: Update README.md
       run: |
         AGE=$(($(date +%Y) - 2006))
-        sed -i "s/{age}/$AGE/g" README_TEMPLATE.md > README.md
+        sed "s/{age}/$AGE/g" README_TEMPLATE.md > README.md
 #        git add README.md
 #        git commit -m ":repeat: Update README for birthday"
 
