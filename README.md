@@ -8,7 +8,7 @@
 - 📖 17-year-old high school girl.
 - 🕹️ Enjoys Redstone Technique in Minecraft.
 - 🔭 Keen on physics and math, loves intellectual challenges.
-- 🤖 Working on [SeSePerson](https://github.com/wellcoming/SeSePerson) Project, a highly intelligent AI.
+- 🤖 Working on [SeSePerson](https://github.com/SeSePerson/SeSePerson) Project, a highly intelligent AI.
 - 💖 Strives to be cuter and kinder. Meow~
 
 ## ✨My interest point
