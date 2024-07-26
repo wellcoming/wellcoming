@@ -18,7 +18,7 @@ jobs:
     - name: Update README.md
       run: |
         # 设置出生日期
-        birth="2006-12-31"
+        birth="2006-12-29"
         current_date=$(date +%F)
         AGE=$(( $(date -d "$current_date" +%Y) - $(date -d "$birth" +%Y) ))
         (( $(date -d "$current_date" +%m%d) < $(date -d "$birth" +%m%d) )) && AGE=$((AGE - 1))
