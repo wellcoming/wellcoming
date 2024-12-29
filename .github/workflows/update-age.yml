@@ -19,12 +19,21 @@ jobs:
       run: |
         # 设置出生日期
         birth="2006-12-29"
-        current_date=$(date +%F)
-        AGE=$(( $(date -d "$current_date" +%Y) - $(date -d "$birth" +%Y) ))
-        (( $(date -d "$current_date" +%m%d) < $(date -d "$birth" +%m%d) )) && AGE=$((AGE - 1))
+        current_date=$(date +%Y-%m-%d)
+
+        # 计算年龄
+        birth_year=$(date -d "$birth" +%Y)
+        birth_month_day=$(date -d "$birth" +%m%d)
+        current_year=$(date -d "$current_date" +%Y)
+        current_month_day=$(date -d "$current_date" +%m%d)
+
+        AGE=$(( current_year - birth_year ))
+        if (( current_month_day < birth_month_day )); then
+          AGE=$((AGE - 1))
+        fi
+
+        # 替换模板中的 {age}
         sed "s/{age}/$AGE/g" README_TEMPLATE.md > README.md
-#        git add README.md
-#        git commit -m ":repeat: Update README for birthday"
 
     - uses: mikeal/publish-to-github-action@master
       env:
