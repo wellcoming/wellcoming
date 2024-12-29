@@ -29,6 +29,7 @@
 ![Java](https://img.shields.io/badge/-Java-F80000?style=flat-square&logo=Oracle&logoColor=fff)
 ![C#](https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logo=C%23&logoColor=fff)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=C&logoColor=000)
+![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=Dart&logoColor=fff)
 ![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=Lua&logoColor=fff)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=fff)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=000)
