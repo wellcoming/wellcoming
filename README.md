@@ -5,7 +5,7 @@
 <a><img height=150 align="center" src="https://github-readme-stats-two-flame-79.vercel.app/api/top-langs?username=wellcoming&layout=compact&exclude_repo=github-readme-stats&theme=transparent" /></a>
 
 - 💻 OIer, actively preparing for Provincial Selection Contest.
-- 📖 17-year-old high school girl.
+- 📖 18-year-old high school girl.
 - 🕹️ Enjoys Redstone Technique in Minecraft.
 - 🔭 Keen on physics and math, loves intellectual challenges.
 - 🤖 Working on [SeSePerson](https://github.com/SeSePerson/SeSePerson) Project, a highly intelligent AI.
